@@ -1,0 +1,49 @@
+{
+  "name": "webrtc-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "npm run eslint:lint && npm run prettier:lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eslint:fix": "eslint ./src --fix",
+    "eslint:lint": "eslint ./src",
+    "prettier:fix": "prettier --write .",
+    "prettier:lint": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}

@@ -1,0 +1,12 @@
+.vscode
+build
+dist
+package*.json
+pnpm*
+*.d.ts
+public
+CHANGELOG.md
+*.mdx
+README.md
+.fleet
+.gitlab-ci.yml

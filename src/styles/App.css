@@ -1,0 +1,49 @@
+.App {
+  margin: auto;
+  width: 100%;
+  max-width: 88.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1.25rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.video {
+  width: 100%;
+  max-width: 41.875rem;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.person {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+.myId {
+  margin: 1.25rem;
+}
